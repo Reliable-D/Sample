@@ -15,6 +15,19 @@
 		0C3815AA1DED7247003F160A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3815A81DED7247003F160A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0C3815C01DED7388003F160A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0C3815971DED7247003F160A /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C38159B1DED7247003F160A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -26,6 +39,7 @@
 		0C3815A61DED7247003F160A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C3815A91DED7247003F160A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C3815AB1DED7247003F160A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3815B51DED72BB003F160A /* WDRecognizeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WDRecognizeSDK.framework; path = ../../../../Desktop/WDRecognizeSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +58,7 @@
 			children = (
 				0C3815991DED7247003F160A /* Sample */,
 				0C3815981DED7247003F160A /* Products */,
+				0C3815B41DED72BA003F160A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +94,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C3815B41DED72BA003F160A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C3815B51DED72BB003F160A /* WDRecognizeSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,6 +112,7 @@
 				0C3815931DED7247003F160A /* Sources */,
 				0C3815941DED7247003F160A /* Frameworks */,
 				0C3815951DED7247003F160A /* Resources */,
+				0C3815C01DED7388003F160A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,6 +294,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sample",
+				);
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Wanda.Sample;
@@ -281,6 +309,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sample",
+				);
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Wanda.Sample;
@@ -307,6 +339,7 @@
 				0C3815B01DED7247003F160A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
