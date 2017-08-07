@@ -46,14 +46,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSMutableString* mst = @"哈哈，我是某某某，你在***吗？哈哈";
-    
-    NSString* search = @"某某某";
-    NSString* replace = @"***";
-    NSRange range = [mst rangeOfString:search];
-    [mst replaceCharactersInRange:range withString:replace];
-    NSLog(@"%@",mst);
-    
 //    CGSize screenSize = [UIScreen mainScreen].bounds.size;
 //    UIScrollView* scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, screenSize.width, screenSize.height)];
 //    [self.view addSubview:scrollView];

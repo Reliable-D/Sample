@@ -2,11 +2,11 @@
   "commitish" : "v4.0.11",
   "iOS" : [
     {
-      "hash" : "06465932159bd4c45af850188ad203ddaf2a4d87c3bf2b645f61ee6a3030dddb",
+      "hash" : "090b521a958963ae4be50dc804e486a8c66f2e0e31d8f5a27c18e46e1b20f151",
       "name" : "IQKeyboardManager"
     },
     {
-      "hash" : "693485f3cc26734b784c8af8697ef92ca52dc989a55bb874eab827184842bf89",
+      "hash" : "bdf1802daf3866df0922de77b24dbb3c8b8baee404db496bfdaf7d38f3439215",
       "name" : "IQKeyboardManagerSwift"
     }
   ]
