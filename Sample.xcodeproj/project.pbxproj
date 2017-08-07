@@ -13,6 +13,21 @@
 		0C3815A51DED7247003F160A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3815A31DED7247003F160A /* Main.storyboard */; };
 		0C3815A71DED7247003F160A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C3815A61DED7247003F160A /* Assets.xcassets */; };
 		0C3815AA1DED7247003F160A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3815A81DED7247003F160A /* LaunchScreen.storyboard */; };
+		0C6557091F1768090041979B /* WDSDAreaDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6556FD1F1768090041979B /* WDSDAreaDataModel.m */; };
+		0C65570A1F1768090041979B /* WDSDChinaCityDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6556FF1F1768090041979B /* WDSDChinaCityDataModel.m */; };
+		0C65570B1F1768090041979B /* WDSDCityDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6557011F1768090041979B /* WDSDCityDataModel.m */; };
+		0C65570C1F1768090041979B /* WDSDCitySelectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6557031F1768090041979B /* WDSDCitySelectManager.m */; };
+		0C65570D1F1768090041979B /* WDSDProvinceDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6557051F1768090041979B /* WDSDProvinceDataModel.m */; };
+		0C65570E1F1768090041979B /* WDSDCitySelectPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6557081F1768090041979B /* WDSDCitySelectPickView.m */; };
+		0C6557101F1768420041979B /* WDSDChinaCity.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C65570F1F1768420041979B /* WDSDChinaCity.json */; };
+		0C6557121F1776EE0041979B /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6557111F1776EE0041979B /* YYModel.framework */; };
+		0C7FC9A11F318A690015C419 /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7FC9A01F318A690015C419 /* IQKeyboardManager.framework */; };
+		0C7FC9A51F31B88C0015C419 /* IQKeyboardManager.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C7FC9A31F31B88C0015C419 /* IQKeyboardManager.framework.dSYM */; };
+		0C7FC9A61F31B88C0015C419 /* YYModel.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C7FC9A41F31B88C0015C419 /* YYModel.framework.dSYM */; };
+		0C98AD851F010875008C7A97 /* DLThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C98AD841F010875008C7A97 /* DLThread.m */; };
+		0C9BDF1D1F131D6200D91B9D /* DLCurveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9BDF1C1F131D6200D91B9D /* DLCurveViewController.m */; };
+		0C9BDF201F13279700D91B9D /* WDPLaunchCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9BDF1F1F13279700D91B9D /* WDPLaunchCurveView.m */; };
+		0CFD9F2E1F0B78900019A1F7 /* DLRunloopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFD9F2D1F0B78900019A1F7 /* DLRunloopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +39,17 @@
 			files = (
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7FC9A21F31B85D0015C419 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				0C7FC9A51F31B88C0015C419 /* IQKeyboardManager.framework.dSYM in CopyFiles */,
+				0C7FC9A61F31B88C0015C419 /* YYModel.framework.dSYM in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -39,7 +65,31 @@
 		0C3815A61DED7247003F160A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C3815A91DED7247003F160A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C3815AB1DED7247003F160A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C3815B51DED72BB003F160A /* WDRecognizeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WDRecognizeSDK.framework; path = ../../../../Desktop/WDRecognizeSDK.framework; sourceTree = "<group>"; };
+		0C6556FC1F1768090041979B /* WDSDAreaDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDSDAreaDataModel.h; sourceTree = "<group>"; };
+		0C6556FD1F1768090041979B /* WDSDAreaDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDSDAreaDataModel.m; sourceTree = "<group>"; };
+		0C6556FE1F1768090041979B /* WDSDChinaCityDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDSDChinaCityDataModel.h; sourceTree = "<group>"; };
+		0C6556FF1F1768090041979B /* WDSDChinaCityDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDSDChinaCityDataModel.m; sourceTree = "<group>"; };
+		0C6557001F1768090041979B /* WDSDCityDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDSDCityDataModel.h; sourceTree = "<group>"; };
+		0C6557011F1768090041979B /* WDSDCityDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDSDCityDataModel.m; sourceTree = "<group>"; };
+		0C6557021F1768090041979B /* WDSDCitySelectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDSDCitySelectManager.h; sourceTree = "<group>"; };
+		0C6557031F1768090041979B /* WDSDCitySelectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDSDCitySelectManager.m; sourceTree = "<group>"; };
+		0C6557041F1768090041979B /* WDSDProvinceDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDSDProvinceDataModel.h; sourceTree = "<group>"; };
+		0C6557051F1768090041979B /* WDSDProvinceDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDSDProvinceDataModel.m; sourceTree = "<group>"; };
+		0C6557071F1768090041979B /* WDSDCitySelectPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDSDCitySelectPickView.h; sourceTree = "<group>"; };
+		0C6557081F1768090041979B /* WDSDCitySelectPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDSDCitySelectPickView.m; sourceTree = "<group>"; };
+		0C65570F1F1768420041979B /* WDSDChinaCity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WDSDChinaCity.json; sourceTree = "<group>"; };
+		0C6557111F1776EE0041979B /* YYModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YYModel.framework; path = Carthage/Build/iOS/YYModel.framework; sourceTree = "<group>"; };
+		0C7FC9A01F318A690015C419 /* IQKeyboardManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManager.framework; path = Carthage/Build/iOS/IQKeyboardManager.framework; sourceTree = "<group>"; };
+		0C7FC9A31F31B88C0015C419 /* IQKeyboardManager.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = IQKeyboardManager.framework.dSYM; path = Carthage/Build/iOS/IQKeyboardManager.framework.dSYM; sourceTree = "<group>"; };
+		0C7FC9A41F31B88C0015C419 /* YYModel.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = YYModel.framework.dSYM; path = Carthage/Build/iOS/YYModel.framework.dSYM; sourceTree = "<group>"; };
+		0C98AD831F010875008C7A97 /* DLThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLThread.h; sourceTree = "<group>"; };
+		0C98AD841F010875008C7A97 /* DLThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLThread.m; sourceTree = "<group>"; };
+		0C9BDF1B1F131D6100D91B9D /* DLCurveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCurveViewController.h; sourceTree = "<group>"; };
+		0C9BDF1C1F131D6200D91B9D /* DLCurveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCurveViewController.m; sourceTree = "<group>"; };
+		0C9BDF1E1F13279700D91B9D /* WDPLaunchCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDPLaunchCurveView.h; sourceTree = "<group>"; };
+		0C9BDF1F1F13279700D91B9D /* WDPLaunchCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDPLaunchCurveView.m; sourceTree = "<group>"; };
+		0CFD9F2C1F0B78900019A1F7 /* DLRunloopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRunloopViewController.h; sourceTree = "<group>"; };
+		0CFD9F2D1F0B78900019A1F7 /* DLRunloopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRunloopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7FC9A11F318A690015C419 /* IQKeyboardManager.framework in Frameworks */,
+				0C6557121F1776EE0041979B /* YYModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +108,8 @@
 		0C38158E1DED7247003F160A = {
 			isa = PBXGroup;
 			children = (
+				0C7FC9A31F31B88C0015C419 /* IQKeyboardManager.framework.dSYM */,
+				0C7FC9A41F31B88C0015C419 /* YYModel.framework.dSYM */,
 				0C3815991DED7247003F160A /* Sample */,
 				0C3815981DED7247003F160A /* Products */,
 				0C3815B41DED72BA003F160A /* Frameworks */,
@@ -77,6 +131,14 @@
 				0C38159E1DED7247003F160A /* AppDelegate.m */,
 				0C3815A01DED7247003F160A /* ViewController.h */,
 				0C3815A11DED7247003F160A /* ViewController.m */,
+				0C9BDF1E1F13279700D91B9D /* WDPLaunchCurveView.h */,
+				0C9BDF1F1F13279700D91B9D /* WDPLaunchCurveView.m */,
+				0C9BDF1B1F131D6100D91B9D /* DLCurveViewController.h */,
+				0C9BDF1C1F131D6200D91B9D /* DLCurveViewController.m */,
+				0CFD9F2C1F0B78900019A1F7 /* DLRunloopViewController.h */,
+				0CFD9F2D1F0B78900019A1F7 /* DLRunloopViewController.m */,
+				0C98AD831F010875008C7A97 /* DLThread.h */,
+				0C98AD841F010875008C7A97 /* DLThread.m */,
 				0C3815A31DED7247003F160A /* Main.storyboard */,
 				0C3815A61DED7247003F160A /* Assets.xcassets */,
 				0C3815A81DED7247003F160A /* LaunchScreen.storyboard */,
@@ -89,6 +151,7 @@
 		0C38159A1DED7247003F160A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0C6556FA1F1768090041979B /* CitySelect */,
 				0C38159B1DED7247003F160A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -97,9 +160,46 @@
 		0C3815B41DED72BA003F160A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0C3815B51DED72BB003F160A /* WDRecognizeSDK.framework */,
+				0C7FC9A01F318A690015C419 /* IQKeyboardManager.framework */,
+				0C6557111F1776EE0041979B /* YYModel.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C6556FA1F1768090041979B /* CitySelect */ = {
+			isa = PBXGroup;
+			children = (
+				0C6556FB1F1768090041979B /* Model */,
+				0C6557061F1768090041979B /* View */,
+			);
+			path = CitySelect;
+			sourceTree = "<group>";
+		};
+		0C6556FB1F1768090041979B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C65570F1F1768420041979B /* WDSDChinaCity.json */,
+				0C6556FC1F1768090041979B /* WDSDAreaDataModel.h */,
+				0C6556FD1F1768090041979B /* WDSDAreaDataModel.m */,
+				0C6556FE1F1768090041979B /* WDSDChinaCityDataModel.h */,
+				0C6556FF1F1768090041979B /* WDSDChinaCityDataModel.m */,
+				0C6557001F1768090041979B /* WDSDCityDataModel.h */,
+				0C6557011F1768090041979B /* WDSDCityDataModel.m */,
+				0C6557021F1768090041979B /* WDSDCitySelectManager.h */,
+				0C6557031F1768090041979B /* WDSDCitySelectManager.m */,
+				0C6557041F1768090041979B /* WDSDProvinceDataModel.h */,
+				0C6557051F1768090041979B /* WDSDProvinceDataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C6557061F1768090041979B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C6557071F1768090041979B /* WDSDCitySelectPickView.h */,
+				0C6557081F1768090041979B /* WDSDCitySelectPickView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +213,8 @@
 				0C3815941DED7247003F160A /* Frameworks */,
 				0C3815951DED7247003F160A /* Resources */,
 				0C3815C01DED7388003F160A /* Embed Frameworks */,
+				0C6557131F1777040041979B /* ShellScript */,
+				0C7FC9A21F31B85D0015C419 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -129,11 +231,13 @@
 		0C38158F1DED7247003F160A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DL;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Wanda;
 				TargetAttributes = {
 					0C3815961DED7247003F160A = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = FX9WWB683T;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -161,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6557101F1768420041979B /* WDSDChinaCity.json in Resources */,
 				0C3815AA1DED7247003F160A /* LaunchScreen.storyboard in Resources */,
 				0C3815A71DED7247003F160A /* Assets.xcassets in Resources */,
 				0C3815A51DED7247003F160A /* Main.storyboard in Resources */,
@@ -169,13 +274,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C6557131F1777040041979B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/YYModel.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/IQKeyboardManager.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0C3815931DED7247003F160A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CFD9F2E1F0B78900019A1F7 /* DLRunloopViewController.m in Sources */,
+				0C9BDF201F13279700D91B9D /* WDPLaunchCurveView.m in Sources */,
+				0C65570D1F1768090041979B /* WDSDProvinceDataModel.m in Sources */,
+				0C6557091F1768090041979B /* WDSDAreaDataModel.m in Sources */,
 				0C3815A21DED7247003F160A /* ViewController.m in Sources */,
+				0C9BDF1D1F131D6200D91B9D /* DLCurveViewController.m in Sources */,
+				0C65570E1F1768090041979B /* WDSDCitySelectPickView.m in Sources */,
+				0C65570B1F1768090041979B /* WDSDCityDataModel.m in Sources */,
+				0C98AD851F010875008C7A97 /* DLThread.m in Sources */,
+				0C65570C1F1768090041979B /* WDSDCitySelectManager.m in Sources */,
 				0C38159F1DED7247003F160A /* AppDelegate.m in Sources */,
+				0C65570A1F1768090041979B /* WDSDChinaCityDataModel.m in Sources */,
 				0C38159C1DED7247003F160A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,9 +427,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FX9WWB683T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Sample",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -309,9 +444,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FX9WWB683T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Sample",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

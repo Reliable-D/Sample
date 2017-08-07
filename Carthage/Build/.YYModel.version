@@ -1,0 +1,9 @@
+{
+  "commitish" : "1.0.4",
+  "iOS" : [
+    {
+      "hash" : "bd9f0616bb162f16223067ab92cc017f07d4178aa31dd7fa9c2025ebc53c6294",
+      "name" : "YYModel"
+    }
+  ]
+}
