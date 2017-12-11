@@ -72,6 +72,8 @@
     scrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(blockView.frame)+10);
     
     self.scroll = scrollView;
+    
+    NSLog(@"123");
 }
 
 - (void)clickBtn:(UIButton*)sender
